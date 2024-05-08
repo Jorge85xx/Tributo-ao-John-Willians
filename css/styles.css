@@ -1,9 +1,86 @@
 html{
   font-family: 'Times New Roman';
-  background-color: rgb(231, 231, 231);
+  background-color: #ddd;
 }
 
 .container{
-  max-width: 1100px;
-  
+  max-width: 1200px;
+  background-color: rgb(231, 231, 231);
+  position: relative;
+  margin: 50px auto; /*centralizando*/
+  padding: 25px;
+}
+
+.bold{
+  font-weight: bold ;
+}
+
+.header{
+  text-align: center;
+}
+.main-title{
+  font-size: 50px;
+}
+.main-paragraph{
+  font-style: italic;
+}
+
+/* imagem */
+.feature-image{
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* biografia */
+.biograph-container{
+  padding: 25px, 0;
+  margin: 25px 0;
+  border-top: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd;
+}
+
+/* Citações */
+.quotes-container{
+  background-color: #ddd;
+  padding: 30px
+}
+
+.quotes-container blockquote{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.quotes-container p{
+  font-style: italic;
+}
+
+/* Curiosidades */
+.curiosities-container{
+  padding: 25px 0;
+  margin: 25px 0;
+  border-top: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd;
+}
+
+.curiosities-container li{
+  height: 60px
+}
+
+/* imagem bold */
+.img-bold{
+  font-weight: bold;
+  text-align: center;
+}
+.img-final{
+  padding-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.moreinfo-container a{
+  color: rgb(78, 4, 4);
+  margin: 10px 5px;
+}
+
+.footer{
+  text-align: right;
 }
